@@ -1,0 +1,13 @@
+     <h1>Home</h1>
+     <p>ini halaman home</p>
+
+     <!-- Berita -->
+      <div class="row">
+      <% news.forEach(item => { %>
+        <div class="col-lg-6 mb-3">
+        <%= item.title %> <br>
+        <%= item.content %> <hr>
+        <a href="" class="btn btn-primary btn-sm">Detail</a>
+        </div>
+      <% }) %>
+      </div>
